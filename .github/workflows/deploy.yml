@@ -28,6 +28,17 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Ensure GitHub Pages enabled (main branch)
+        env:
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Attempting to enable GitHub Pages for $REPO (branch: main, path: /)"
+          curl -s -X PUT \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $TOKEN" \
+            https://api.github.com/repos/${REPO}/pages \
+            -d '{"source":{"branch":"main","path":"/"}}' || true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
