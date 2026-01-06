@@ -8,3 +8,7 @@ date: 2026-01-03
 ---
 
 [Информация](/hugo-site/info)
+
+---
+
+[Сайт на Bootstrap](/hugo-site/bootstrap)
