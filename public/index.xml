@@ -29,5 +29,15 @@
       
     </item>
     
+    <item>
+      <title>Тема 1 - GitHub</title>
+      <link>//localhost:1313/git/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/git/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

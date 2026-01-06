@@ -12,3 +12,7 @@ date: 2026-01-03
 ---
 
 [Сайт на Bootstrap](/hugo-site/bootstrap)
+
+---
+
+[GitHub Desktop](/hugo-site/git)
