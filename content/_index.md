@@ -16,3 +16,7 @@ date: 2026-01-03
 ---
 
 [GitHub Desktop](/hugo-site/git)
+
+---
+
+[Запросы](/hugo-site/requests)
